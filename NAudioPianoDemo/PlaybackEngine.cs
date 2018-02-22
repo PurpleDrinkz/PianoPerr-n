@@ -51,7 +51,7 @@ namespace NAudioPianoDemo
             ISampleProvider mixerInput;
             if (mixerinputs.TryGetValue(noteName,out mixerInput))
             {
-                mixer.RemoveMixerInput(mixerInput);
+                mixer.RemoveMixerInput(mixerInput); 
             }
         }
     }
