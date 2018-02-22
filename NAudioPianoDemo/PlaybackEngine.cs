@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using NAudio.Wave;
+using NAudio.Wave.SampleProviders;
 
 namespace NAudioPianoDemo
 {
@@ -14,24 +15,43 @@ namespace NAudioPianoDemo
         };
 
         private WaveOut waveOut;
+        private MixingSampleProvider mixer;
+        private Dictionary<string, ISampleProvider> mixerinputs =
+            new Dictionary<string, ISampleProvider>(); 
+
+        public PlaybackEngine()
+        {
+
+            //Ahora será la misma instancia todo el tiempo
+            waveOut = new WaveOut();
+            //Inicializar el mixer
+            mixer =
+                new MixingSampleProvider(WaveFormat.CreateIeeeFloatWaveFormat(44100, 1));
+            mixer.ReadFully = true;
+            waveOut.Init(mixer);
+            waveOut.Play();
+
+
+        }
+
 
         public void StartNote(string note)
         {
-            waveOut = new WaveOut();
-
             string file;
             if (noteFiles.TryGetValue(note, out file))
             {
-                waveOut.Init(new AudioFileReader("samples\\" + file));
-                waveOut.Play();
+                var reader = new AudioFileReader("samples\\" + file);
+                mixerinputs[note] = reader;
+                mixer.AddMixerInput((ISampleProvider)reader);
             }
         }
 
         public void StopNote(string noteName)
         {
-            if (waveOut != null)
+            ISampleProvider mixerInput;
+            if (mixerinputs.TryGetValue(noteName,out mixerInput))
             {
-                waveOut.Stop();
+                mixer.RemoveMixerInput(mixerInput);
             }
         }
     }

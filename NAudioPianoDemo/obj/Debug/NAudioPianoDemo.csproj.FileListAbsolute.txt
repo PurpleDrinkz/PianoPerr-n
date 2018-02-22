@@ -1,0 +1,24 @@
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\bin\Debug\NAudioPianoDemo.exe.config
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\bin\Debug\samples\P1D V105 A4.wav
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\bin\Debug\samples\P1D V105 C4.wav
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\bin\Debug\samples\P1D V105 Eb4.wav
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\bin\Debug\samples\P1D V105 Gb4.wav
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\bin\Debug\NAudioPianoDemo.exe
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\bin\Debug\NAudioPianoDemo.pdb
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\bin\Debug\NAudio.dll
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\bin\Debug\NAudio.xml
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\NAudioPianoDemo.csprojResolveAssemblyReference.cache
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\PianoControl.baml
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\MainWindow.g.cs
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\PianoControl.g.cs
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\App.g.cs
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\NAudioPianoDemo_Content.g.cs
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\NAudioPianoDemo_MarkupCompile.cache
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\NAudioPianoDemo_MarkupCompile.lref
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\MainWindow.baml
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\NAudioPianoDemo.g.resources
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\NAudioPianoDemo.Properties.Resources.resources
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\NAudioPianoDemo.csproj.GenerateResource.Cache
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\NAudioPianoDemo.exe
+C:\Users\alumno\Source\Repos\PianoDemo\NAudioPianoDemo\obj\Debug\NAudioPianoDemo.pdb
